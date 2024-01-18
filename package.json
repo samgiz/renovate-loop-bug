@@ -2,11 +2,7 @@
   "name": "renovate-service",
   "private": true,
   "dependencies": {
-    "@k-foss/ts-esnode": "2.0.3",
-    "prettier": "3.1.1",
-    "renovate": "37.133.0",
-    "ts-node": "10.9.2",
-    "typescript": "5.3.3"
+    "@types/jest": "29.5.4"
   },
   "scripts": {
     "lint": "prettier **/*.{js,json} --check"
