@@ -2,7 +2,7 @@
   "name": "renovate-service",
   "private": true,
   "dependencies": {
-    "isarray": "2.0.0"
+    "node-fetch": "3.2.0"
   },
   "scripts": {
     "renovate": "npx renovate"
