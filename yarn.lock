@@ -5,12 +5,10 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@types/node@npm:^20.3.2":
-  version: 20.10.5
-  resolution: "@types/node@npm:20.10.5"
-  dependencies:
-    undici-types: ~5.26.4
-  checksum: e216b679f545a8356960ce985a0e53c3a58fff0eacd855e180b9e223b8db2b5bd07b744a002b8c1f0c37f9194648ab4578533b5c12df2ec10cc02f61d20948d2
+"is-arrayish@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "is-arrayish@npm:0.3.0"
+  checksum: d44c38cfccee7eed56298a8ce29de209e6aa94aa9275614070a6605f9b2184efcdba7add435f0b18f7d078ec661ae08dd0e49804c76029950fdef1bcc0da0303
   languageName: node
   linkType: hard
 
@@ -25,14 +23,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "renovate-service@workspace:."
   dependencies:
-    "@types/node": ^20.3.2
+    is-arrayish: ^0.3.0
     isarray: 2.0.0
   languageName: unknown
   linkType: soft
-
-"undici-types@npm:~5.26.4":
-  version: 5.26.5
-  resolution: "undici-types@npm:5.26.5"
-  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
-  languageName: node
-  linkType: hard

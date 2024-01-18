@@ -2,13 +2,10 @@
   "name": "renovate-service",
   "private": true,
   "dependencies": {
+    "is-arrayish": "^0.3.0",
     "isarray": "2.0.0"
   },
   "scripts": {
     "renovate": "npx renovate"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^20.3.2"
   }
 }
