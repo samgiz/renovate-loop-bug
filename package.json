@@ -2,10 +2,10 @@
   "name": "renovate-service",
   "private": true,
   "dependencies": {
-    "@types/jest": "29.5.4"
+    "node-fetch": "3.2.0"
   },
   "scripts": {
-    "lint": "prettier **/*.{js,json} --check"
+    "renovate": "npx renovate"
   },
   "license": "MIT",
   "devDependencies": {
