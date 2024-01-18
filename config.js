@@ -1,7 +1,5 @@
 module.exports = {
   platform: "github",
   repositories: ["Garethp/renovate-loop-bug"],
-  groupName: "group:all",
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0
+  groupName: "group:all"
 };
